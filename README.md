@@ -4,7 +4,7 @@ I am a passionate software developer, full of ideas that I am driven to bring to
 
 The app is still running, and I'm proud to share it with some of my psychology colleagues, who are also my customers. When I realized my commitment to that project was too serious to be considered just a hobby, I decided to start my second degree in Systems Analysis and Development.
 
-## 🚀 Featured Project: AgenPsi
+## 🚀 Featured Project: [AgenPsi](https://agenpsi.app.br)
 
 AgenPsi is a secure, simple, and ethical online clinical schedule management system for psychologists. It was born from my direct experience as a clinical psychologist to solve the practical and organizational difficulties of managing a diverse practice.
 
@@ -28,7 +28,7 @@ This is a full-stack application built with:
 
 ### 🔗 Live Application
 
-- **Live Application:** (agenpsi.app.br)[https://agenpsi.app.br]
+- **Live Application:** [agenpsi.app.br](https://agenpsi.app.br)
 - **Source Code:** Available upon request.
 
 ## 🛠️ Tech Stack & Proficiency
