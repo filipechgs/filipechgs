@@ -1,51 +1,112 @@
-# Hello World!
+# Olá! Eu sou o Filipe
 
-I am a passionate software developer, full of ideas that I am driven to bring to life. My first project was an online psychologist scheduling management system, born from my own need. My first degree is in psychology, and back in 2021, I was struggling with paper planners, Excel spreadsheets, and mobile apps—none of which worked as I needed. As a curious person with wide-ranging interests, I started programming—why not? It began as a hobby with the goal of building my own web app, AgenPsi (I'm from Brazil, and the app's page is in my native language).
+Sou psicólogo de formação e analista de sistemas. Atuo como **fundador técnico solo**: concebo o produto, modelo o domínio, defino arquitetura e conduzo a entrega de software — incluindo orquestração de agentes de IA como acelerador de implementação.
 
-The app is still running, and I'm proud to share it with some of my psychology colleagues, who are also my customers. When I realized my commitment to that project was too serious to be considered just a hobby, I decided to start my second degree in Systems Analysis and Development.
+Meu primeiro produto nasceu da própria prática clínica. Em 2021, entre agendas de papel, planilhas e apps genéricos, comecei a programar para construir o que faltava. O resultado foi o **AgenPsi**, ainda em uso por colegas psicólogos. Quando o projeto deixou de ser hobby, iniciei a graduação em Análise e Desenvolvimento de Sistemas.
 
-## 🚀 Featured Project: [AgenPsi](https://agenpsi.app.br)
+Hoje construo o **Sinclin**: a evolução dessa trajetória — um SaaS multi-tenant de agenda e gestão financeira para clínicas não médicas e profissionais de saúde, com isolamento de dados sob a LGPD.
 
-AgenPsi is a secure, simple, and ethical online clinical schedule management system for psychologists. It was born from my direct experience as a clinical psychologist to solve the practical and organizational difficulties of managing a diverse practice.
+## Como trabalho
 
-### ✨ Core Philosophy & Features
-The application is built on a core philosophy of professional autonomy, data control, and simplicity. Unlike other tools, it intentionally avoids automating core clinical interactions like client billing and session reminders, keeping the therapeutic relationship direct and human.
+Não me limito a “escrever código”. Meu foco está no ciclo completo de engenharia de produto:
 
-- **Personalized Scheduling:** Customize session durations, times, and work shifts.
-- **Session Management:** Visually track attendance, absences, cancellations, reschedules, and payments with a color-coded system.
-- **Free-Form Notes & Evolution:** Make session notes without rigid templates, with support for smartphone voice typing.
-- **One-Click WhatsApp Chat:** Start a chat with a client without saving their number.
-- **Payment & Insurance Tracking:**: Easily track received payments and register different health insurance plans to compare results.
-- **Productivity Insights:** View user-friendly monthly and annual charts to understand patient volume and revenue from private and insurance-based sessions.
-- **Accessible & Secure:** A fully responsive web app accessible from any internet-connected device. All data is encrypted and stored on high-standard servers.
+- Análise de requisitos e regras de negócio reais (clínica, financeiro, assinatura)
+- Modelagem de domínio e banco de dados
+- Arquitetura de software (módulos, papéis, multi-tenant, segurança)
+- Planejamento de entrega (backlog, sprints, decisões documentadas)
+- Revisão, validação e iteração contínua com agentes de código
 
-### 🛠️ Tech Stack (as used in AgenPsi)
-This is a full-stack application built with:
+Sou uma equipe de uma pessoa: eu defino o *o quê* e o *porquê*; agentes aceleram o *como* — sob minha responsabilidade técnica.
 
-- **Frontend**: HTML5, CSS, JavaScript
-- **Backend & API:** Node.js, Express.js, EJS
-- **Database**: MongoDB
+## Projeto em destaque: Sinclin
 
-### 🔗 Live Application
+SaaS web de **agendamento + gestão financeira** para clínicas (foco inicial em psicologia) e profissionais autônomos.
 
-- **Live Application:** [agenpsi.app.br](https://agenpsi.app.br)
-- **Source Code:** Available upon request.
+### O que o produto entrega
 
-## 🛠️ Tech Stack & Proficiency
+- Agenda do profissional integrada à agenda da clínica, com papéis e permissões distintos
+- Isolamento LGPD: prontuário/anotações do profissional não ficam sob controle da organização
+- Fluxos financeiros clínicos: recebimentos, repasses, despesas e relatórios
+- Modelo SaaS de contratação e cobrança (profissional, organização e assinatura assumida pela clínica)
+- Integração de billing (Asaas), autenticação, segurança perimetral e operação em nuvem
 
-| Technology | Badge | Proficiency | Context / Notes |
-| :--- | :--- | :--- | :--- |
-| **Node.js** | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) | **Advanced** | Core backend runtime for AgenPsi. Used extensively for API logic and server-side operations. |
-| **Express.js** | ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) | **Advanced** | Primary web framework for building the AgenPsi REST API and handling routing. |
-| **MongoDB** | ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) | **Intermediate** | NoSQL database used as the main data store for user and appointment data in AgenPsi. |
-| **HTML5** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | **Advanced** | Used for structuring all pages and components of the AgenPsi web interface. |
-| **CSS** | ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white) | **Intermediate** | Used for styling and layout of the application. Focus on functionality over complex design. |
-| **JavaScript** | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | **Advanced** | Primary programming language for both front-end interactivity and back-end logic in AgenPsi. |
-| **TypeScript** | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | **Learning** | Actively learning and beginning to implement in new projects for improved type safety. |
-| **C#** | ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) | **Familiar** | Studying the .NET ecosystem. Have built small console applications and understand OOP principles. |
-| **Rust** | ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) | **Learning** | In the early stages of learning, focusing on syntax and core concepts like ownership and borrowing. |## Projects
+### Stack
 
-## 📊 Some stats of my public repos
+| Camada | Tecnologia |
+| :--- | :--- |
+| Backend | NestJS, TypeScript, Express |
+| Views / SSR | EJS, HTML, CSS, JavaScript |
+| Banco | PostgreSQL + Prisma |
+| Auth | JWT (cookie HTTP-only), Passport |
+| Qualidade | Jest (unitário / e2e) |
+| Operação | Deploy com PM2, documentação e runbooks |
+
+### Competências que este projeto evidencia
+
+- Arquitetura multi-tenant e matriz de permissões por papel
+- Modelagem relacional complexa (domínio clínico + financeiro + billing)
+- Segurança de aplicação (CSRF, rate limit, Helmet, sessão, controles de acesso)
+- Conformidade e privacidade (LGPD, mapa de dados, isolamento entre contextos)
+- Integração com serviços externos de pagamento e faturamento
+- Engenharia de produto: requisitos, ADRs, sprints e critérios de qualidade
+
+> Código e documentação técnica disponíveis sob solicitação (repositório privado).
+
+## Projeto anterior: [AgenPsi](https://agenpsi.app.br)
+
+Sistema online de gestão de agenda clínica para psicólogos, nascido da minha experiência como profissional de saúde. Continua em produção, com clientes reais.
+
+### Filosofia e funcionalidades
+
+Autonomia profissional, controle dos dados e simplicidade. Evita automatizar interações clínicas centrais (como cobrança automática do paciente e lembretes de sessão), preservando a relação terapêutica.
+
+- Agenda personalizada (duração, horários e turnos)
+- Gestão visual de presença, faltas, cancelamentos, remarcações e pagamentos
+- Anotações livres de sessão, com suporte a ditado por voz no celular
+- Abertura rápida de conversa no WhatsApp
+- Acompanhamento de pagamentos e convênios
+- Insights de produtividade (gráficos mensais e anuais)
+- App web responsivo, acessível de qualquer dispositivo
+
+### Stack (AgenPsi)
+
+- **Frontend:** HTML5, CSS, JavaScript  
+- **Backend:** Node.js, Express.js, EJS  
+- **Banco:** MongoDB  
+
+**Aplicação ao vivo:** [agenpsi.app.br](https://agenpsi.app.br)
+
+## Stack e competências
+
+| Tecnologia | Nível | Contexto |
+| :--- | :--- | :--- |
+| **TypeScript / Node.js** | Avançado | Runtime e tipagem no Sinclin (NestJS) e no AgenPsi (JS/Node) |
+| **NestJS** | Avançado | Arquitetura modular SSR + API, guards, DTOs, serviços de domínio |
+| **Express.js** | Avançado | Base do AgenPsi e camada HTTP do Sinclin |
+| **PostgreSQL + Prisma** | Intermediário–avançado | Modelagem relacional, migrations e regras de persistência |
+| **MongoDB** | Intermediário | Persistência do AgenPsi em produção |
+| **HTML / CSS / JavaScript** | Avançado | Interfaces SSR, UX clínica e scripts de front |
+| **Auth & segurança web** | Intermediário–avançado | JWT, cookies, CSRF, rate limit, Helmet, papéis |
+| **Billing / integrações** | Intermediário | Fluxos de assinatura e integração Asaas |
+| **Engenharia de produto** | Avançado | Requisitos, domínio, ADRs, backlog e validação com usuários |
+| **Orquestração com IA** | Avançado | Especificação, revisão e entrega acelerada com agentes de código |
+| **C# / .NET** | Familiar | Estudos e pequenos projetos de console / OOP |
+| **Rust** | Em aprendizado | Sintaxe e conceitos fundamentais (ownership, borrowing) |
+
+## Formação e perfil
+
+- Graduação em **Psicologia** — domínio do problema clínico e do usuário final  
+- Graduação em **Análise e Desenvolvimento de Sistemas** — formalização técnica da engenharia  
+- Perfil: **fundador técnico solo / analista de sistemas orientado a produto**
+
+## Onde encaixo bem
+
+- Startups early-stage e produtos digitais B2B  
+- Papéis de análise de sistemas, product owner técnico ou full stack com visão de domínio  
+- Times enxutos que valorizam quem traduz regra de negócio em arquitetura e entrega  
+- Ambientes abertos a engenharia assistida por IA, com ownership humano do resultado  
+
+## Estatísticas públicas
+
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=filipechgs&show_icons=true&theme=radical&hide_rank=true)](https://github.com/filipechgs)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=filipechgs&layout=compact&theme=radical&exclude_repo=RepoName1,RepoName2)](https://github.com/filipechgs)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=filipechgs&layout=compact&theme=radical)](https://github.com/filipechgs)
